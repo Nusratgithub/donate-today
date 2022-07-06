@@ -88,6 +88,7 @@ h3{
   border-radius: 20px 0;
   background-color:rgb(221, 239, 245);
   text-align: justify;
+  box-shadow: 10px 10px 10px lightgray;
 }
 .card-item small{
   font-size: 18px;
@@ -99,32 +100,40 @@ h3{
 }
 .item4{
   background-color: rgb(245, 245, 230);
-  padding: 50px;
+ 
 }
 .section-blog{
-  padding: 50px 120px;
+  margin: 80px;
+  
+}
+.section-blog h4{
+  text-align: center;
+  font-size: 30px;
+  color: tomato;
   
 }
 .blog-item{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  
+  margin: 50px;
 }
 .blog-item img{
-  width: 95%;
+  width: 48%;
+  border-radius: 10px 0;
+  margin-right: 10px;
+ 
 }
 form{
  display: flex;
  justify-content: center;
  align-items: center;
  margin: 30px;
- width: 30%;
+ width: 40%;
  border: 1px solid ;
  padding: 40px;
  background-color: beige;
- margin-left: 34%;
+ margin-left: 30%;
  border: none;
  margin-bottom: 50px;
 }
@@ -140,14 +149,15 @@ footer{
   text-align: center;
   background-color: #000;
   color:floralwhite;
-  padding: 20px;
+  padding: 15px;
   font-size: 15px;
   font-family: cursive, sans-serif;
-
+  
 }
 span{
   padding-bottom: 10px;
 }
-footer h3{
+footer h4{
   color: tomato;
+  font-size: 20px;
 }
