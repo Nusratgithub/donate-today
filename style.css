@@ -80,7 +80,7 @@ hr{
   padding: 50px;
   border-radius: 20px 0;
   background-color:rgb(221, 239, 245);
-  
+  text-align: justify;
 }
 .card-item span{
   font-size: 18px;
