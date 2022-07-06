@@ -12,6 +12,10 @@ p{
   font-size: 15px;
   text-align: center;
 }
+hr{
+  width: 30%;
+  color: lightgray;
+}
 .header{
   text-align: center;
   color: #fff;
@@ -29,9 +33,36 @@ p{
   background-color:tomato;
   color: #fff;
   text-decoration: none;
-  padding: 10px 30px;
-  border-radius: 10px;
+  padding: 10px 20px;
+  border-radius: 6px;
   border: none;
   margin-top: 20px;
+  font-size: 18px;
+}
+.foundation{
+  text-align: center;
+}
+#donate-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
   font-size: 15px;
+}
+.money{
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 15px;
+  padding: 20px;
+  border: 1px solid gray;
+  border: none;
+  background-color:whitesmoke;
+}
+.active-money{
+  border: 1px solid tomato;
+  background-color:lightpink;
+  color: tomato;
+}
+.foundation h2{
+  font-size:30px;
 }
