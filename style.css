@@ -28,21 +28,27 @@ h3{
   text-align: center;
   color: #fff;
   padding-top: 200px;
- 
 }
+.banner{
+  width: 100%;
+  height: 80vh;
+  background-image:linear-gradient(rgba(0,0,0, .1),black);
+}
+
 .header-section{
   background-image: url("images/donation5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: cover;
   width: 100%;
   height: 80vh;
 }
 .btn{
-  background-color:tomato;
+  background-color:#ff6347;
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
-  border-radius: 6px;
+  border-radius: 10px;
   border: none;
   margin-top: 20px;
   font-size: 18px;
@@ -73,6 +79,11 @@ h3{
 }
 .foundation h2{
   font-size:30px;
+}
+.foundation input{
+  width: 25%;
+  border-radius: 10px;
+  border: 1px solid tomato;
 }
 .section-card{
   display: flex;
@@ -137,12 +148,16 @@ form{
  margin-bottom: 50px;
 }
 input{
-  width: 250px;
-  padding: 15px;
-  margin-right: 15px;
+  width: 300px;
+  padding: 20px;
   margin-top: 20px;
-  border: none;
-  color: transparent;
+  border: 1px solid tomato;
+  color: #4c4c4c;
+  border-radius: 10px 0 0 10px;
+}
+form .btn{
+ border-radius:0 10px 10px 0;
+ padding: 19px;
 }
 footer{
   text-align: center;
